@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- aframeの導入 -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-orbit-controls@1.2.0/dist/aframe-orbit-controls.min.js"></script>
+
+    <title>机（と椅子）</title>
+</head>
+
+<body>
+
+    <a-scene inspector keyboard-shorcuts>
+        <a-entity camera
+            orbit-controls="target: 0 1.6 -0.5; maxPolarAngle:180; minDistance: 0.5; maxDistance: 200; initialPosition: 0 80 150">
+        </a-entity>
+
+        <a-assets>
+            <a-asset-items id="bird" src="desk v6.gltf"></a-asset-items>
+        </a-assets>
+        <a-entity gltf-model="#bird" position="0 0 -0"></a-entity>
+        <a-plane position="0 0 0" rotation="-90 0 0" width="500" height="500" color="#7BC8A4"></a-plane>
+        <a-light type="ambient" color="#FFF">
+        </a-light> -->
+    </a-scene>
+</body>
+
+</html>
