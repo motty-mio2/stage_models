@@ -11,7 +11,9 @@
 
 <body>
 
-    <a-scene inspector keyboard-shorcuts>
+    <a-scene inspector keyboard-shorcuts webxr="requiredFeatures: hit-test,local-floor;
+    optionalFeatures: dom-overlay,unbounded;
+    overlayElement: #overlay;">
         <a-entity camera
             orbit-controls="target: 0 1.6 -0.5; maxPolarAngle:180; minDistance: 0.5; maxDistance: 200; initialPosition: 0 80 150">
         </a-entity>
