@@ -15,7 +15,3 @@
 [ビューワ](./shelf/index.html)
 [ダウンロード](./shelf/shelf%20v11.f3d) : Fusion 360形式
 
-# その他資料
-## 仕込み
-- [モンスター](https://youtu.be/vTCVDzM9pIE)
-- [三角](https://youtu.be/9S-akuRcNTw)
