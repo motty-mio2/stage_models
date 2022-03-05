@@ -1,4 +1,4 @@
-# もってぃの引継ぎ資料
+# [もってぃの引継ぎ資料](https://motty-mio2.github.io/stage_models/)
 
 - [モデル関連](./models/models.md)
   - 過去に製作した舞台で使用したモデルが入っています。
